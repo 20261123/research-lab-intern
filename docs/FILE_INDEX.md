@@ -152,6 +152,9 @@
 
 ## 공유용 PDF
 
+- [발표자 상세 해설서 PDF](../output/pdf/세종대_통신프로젝트_발표자_상세해설서.pdf): 34쪽, 용어·수식·수정·지도·배치·세 조건·20회·장애·대응·한계·PPT 구성·연결 대본·16개 예상 질문. 34개 책갈피 포함.
+- [수정 가능한 읽기본](project/발표자_상세해설서.md) · [생성 스크립트](../tools/report/build_presenter_guide.py).
+
 세 조건 SINR 그림·위치별 데이터·설정·검증 기록은 [heatmaps_three_cases](../results/labgemini4/heatmaps_three_cases/)에 보관한다. 재생성 함수는 [export_labgemini4_heatmaps.m](../matlab/export_labgemini4_heatmaps.m)이다.
 
 - [조원별 다음 할 일 PDF](../output/pdf/조원별_다음할일.pdf): 2026-10-10 역할별 배정안, 2쪽. 생성된 PDF의 크기와 SHA-256도 file_manifest.csv에 기록한다.

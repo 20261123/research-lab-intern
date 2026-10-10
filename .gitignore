@@ -21,3 +21,6 @@ slprj/
 # Large original MAT results are stored in GitHub Releases
 matlab/campus_model/results/demo_20261006_152830_141/selection_results.mat
 matlab/campus_model/results/demo_20261006_152830_141/validation_results.mat
+
+# Local PDF rendering and layout QA
+/tmp/pdfs/
