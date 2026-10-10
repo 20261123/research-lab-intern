@@ -6,6 +6,7 @@
 
 | 목적 | 자료 |
 |---|---|
+| 오늘 전체 정리 | [2026-10-10 수정사항·결과·해석·남은 업무](docs/project/2026-10-10_작업총정리.md) |
 | 최신 11개 배치 결과·실행 | [세 조건 히트맵·CDF·5백분위·1/2단계 비교](results/labgemini4/added11_three_cases/) · [MATLAB 실행 함수](matlab/run_added_sites_three_cases.m) |
 | 현재 코드 실행 | [labgemini4.m](matlab/labgemini4.m) |
 | 사용자 보관 수정 보고서 | [2일차 수정본](reports/day2/revisions/user/2일차_주파수_대역폭_비교_수정본.docx) |

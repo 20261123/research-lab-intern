@@ -131,62 +131,66 @@ generated:matlab/labgemini4.m,results/labgemini4/heatmaps_three_cases/sinr_3p5GH
 generated:matlab/labgemini4.m,results/labgemini4/heatmaps_three_cases/sinr_three_cases.png,repository,1172690,96a9b126dead0459ce768677834b9c9c443d1757346d46fa6898c78b7dbad628
 generated:matlab/labgemini4.m,results/labgemini4/heatmaps_three_cases/summary.csv,repository,449,cd4dc0db3ff6e1a21a09deed9a969571507a9333c5f0f2abf9239bf4ee283b89
 generated:matlab/labgemini4.m,results/labgemini4/heatmaps_three_cases/verification.json,repository,346,42aacf8951592e2fa59af9a58914bb8b0c3f05523237d33139130b6b54a5545b
-"user maps / imagegen 2026-10-10","references/maps/sejong_boundary/naver_map_original.png","repository","291781","5c8ce3099c90a714420409fac329f3e7d4e76e905458634c3ef45652a1f749a3"
-"user maps / imagegen 2026-10-10","references/maps/sejong_boundary/boundary_reference_original.png","repository","344489","87f080f1e7cf97237f15c49e7e85e4fd3c0a14ab2758a09ffce391aaeaa1d569"
-"user maps / imagegen 2026-10-10","results/maps/sejong_7regions/sejong_boundary_7regions.png","repository","1693305","f1a96b29b871ad066f488fb3442d7357096d42c2d72721c97ac007f2ea4fe6ae"
-"user maps / imagegen 2026-10-10","results/maps/sejong_7regions/prompt.txt","repository","3889","bb87f71cf6316426b892ea15ea6f60e917a48ee6182f7b500814607da7329d77"
-"user maps / imagegen 2026-10-10","results/maps/sejong_7regions/README.md","repository","1609","69fc7baa1f2f4f01e055c36fd3e5d3810d3d14f0c98da50e38868c89bce93341"
-"provisional campus analysis 2026-10-10","results/labgemini4/weak_regions_provisional/analysis_summary.json","repository","5561","ec1a003549f56f84c0bc8e5f1dcac7f85bf2f5d086c283eb3f0e2e71d7916751"
-"provisional campus analysis 2026-10-10","results/labgemini4/weak_regions_provisional/boundary_vertices_estimated.csv","repository","1314","3db2a1a50bd32fa7de4fd259b972efb45628b9875b80f32cc6056a56c30d5bef"
-"provisional campus analysis 2026-10-10","results/labgemini4/weak_regions_provisional/campus_positions.csv","repository","1266702","cd1f8aab2bb0b53c9a5838397247d3f3734f766a1052b364da3b53f8d869d620"
-"provisional campus analysis 2026-10-10","results/labgemini4/weak_regions_provisional/extended_grid_sinr.csv","repository","2799161","3f761cc3dcf409ac16a40da55090d3b26bc1edd450bd2ef26e94590540c86341"
-"provisional campus analysis 2026-10-10","results/labgemini4/weak_regions_provisional/geometry_assumptions.json","repository","880","5e318b4d37e0773fa3bc04b9696a3b6840b4067276e54df921f3616ed93d6aab"
-"provisional campus analysis 2026-10-10","results/labgemini4/weak_regions_provisional/labgemini4_extended_grid.m","repository","8846","0018f0303dda4dc81821b418f407da02d9d6dcacf3ed5294a7196e27608ca529"
-"provisional campus analysis 2026-10-10","results/labgemini4/weak_regions_provisional/README.md","repository","9390","c20e63590a05453b5aeabe7b35057ef36e8bca89b95c5351eee21693c722a10f"
-"provisional campus analysis 2026-10-10","results/labgemini4/weak_regions_provisional/registration_anchors.csv","repository","429","a87427d0b8fb46cd49cec8e9b8b8713f94de5bcbe83d77e74e3d7a63a11d45aa"
-"provisional campus analysis 2026-10-10","results/labgemini4/weak_regions_provisional/verification.json","repository","510","e39b968426e8e922fb876a2bf19ea58ebb74692c96f922710592aab0eb58ad38"
-"provisional campus analysis 2026-10-10","results/labgemini4/weak_regions_provisional/weak_points.csv","repository","964","42c8952f43deea2a5a92c043f256899df290b5bd82b0813e4700c99d77fd5fab"
-"provisional campus analysis 2026-10-10","results/labgemini4/weak_regions_provisional/weak_regions_bottom10.png","repository","223132","32d99dc3b8fc1a4158a606b272c6eed34a54db852b77b933aa79cea1a39e0de4"
-"provisional campus analysis 2026-10-10","results/labgemini4/weak_regions_provisional/weak_regions_sinr.png","repository","637767","3998868bd9d5116e5f912610c718bab2068c03947eb2721e45bab49b1b2e857a"
-"provisional campus analysis 2026-10-10","analysis/weak_regions_provisional.py","repository","9914","98cf188a219ff8ea6633b512215896aaa8dc4fedab71ae767bca864b05cff2ad"
-"provisional campus analysis 2026-10-10","matlab/plot_provisional_weak_regions.m","repository","2943","f3be13408d657cb60ae1d51a31a7dbdc33ecc1b30430b3a35d6ebab16fdbeed5"
-"three scenarios MATLAB 2026-10-10","results/labgemini4/three_placement_scenarios/all_66_pairs.csv","repository","35008","30eb040274e2ba6bda7f8685ff894be1a5eb4e1a29f694280d5d5cdde28347f4"
-"three scenarios MATLAB 2026-10-10","results/labgemini4/three_placement_scenarios/candidates.csv","repository","1190","50f97f6c52ca5346415c8874fb5076287174ad13b80277a317169d98f6c3108c"
-"three scenarios MATLAB 2026-10-10","results/labgemini4/three_placement_scenarios/degradation_analysis.json","repository","297","ed401f103b583e65c239782ea6e41ff8e80fb2e3a35b5f4ae2c79a7f696a25ec"
-"three scenarios MATLAB 2026-10-10","results/labgemini4/three_placement_scenarios/factorial_3x3.csv","repository","1045","3f54327e2e58dda33d1528142bd77880cb277f3ecc8737a6d66d05c8cd79a2cf"
-"three scenarios MATLAB 2026-10-10","results/labgemini4/three_placement_scenarios/heldout_cdf_lower_tail.png","repository","108949","e118634e4393a907811d8bfa077a13c324ffb93c57317181fd4fc9393a978291"
-"three scenarios MATLAB 2026-10-10","results/labgemini4/three_placement_scenarios/README.md","repository","12430","d5844b1e3f42ab97bdf5c4e4b7859fe12adf4dd3e60150571604da3086b48639"
-"three scenarios MATLAB 2026-10-10","results/labgemini4/three_placement_scenarios/recommended_before_after.png","repository","1353225","279ba59c092b091159e593f2215ce65f0fc5f3e924ef7adbb4e1141c235dcd16"
-"three scenarios MATLAB 2026-10-10","results/labgemini4/three_placement_scenarios/run_summary.json","repository","1768","0616d6ceaf711ef9165ae11ed1574b7ba0298d68005a8631085d41579d4bf314"
-"three scenarios MATLAB 2026-10-10","results/labgemini4/three_placement_scenarios/scenario_comparison.csv","repository","1759","46e116890b4d4bd87034b8cf19ce4e708817661f789e4c2abe45fa1646268451"
-"three scenarios MATLAB 2026-10-10","results/labgemini4/three_placement_scenarios/scenario_results.mat","repository","18075","42060bf364b7b8f5916d548b22d8c3724364b2775ead9985fe1da34456cbc8ad"
-"three scenarios MATLAB 2026-10-10","results/labgemini4/three_placement_scenarios/scenario_settings.json","repository","1529","b6a9f4573bfbdef7a1b1da9d97944c335a191393b83da67185519d0edf3ef60d"
-"three scenarios MATLAB 2026-10-10","results/labgemini4/three_placement_scenarios/selected_positions.csv","repository","1457845","585707424fe0aba5e3b78825bbeb0caceab24eccbda8ee707fff6ae6ad5e3690"
-"three scenarios MATLAB 2026-10-10","results/labgemini4/three_placement_scenarios/sensitivity.csv","repository","2506","41f9e95d5b940b352959d340bc57fc89839c93d779cacdb7608a683b18aca5b7"
-"three scenarios MATLAB 2026-10-10","results/labgemini4/three_placement_scenarios/three_scenario_sites.png","repository","298466","9b6f508b609633aef05eaf10e931171274a9565a44a04d4036c2f1a45841ad18"
-"three scenarios MATLAB 2026-10-10","results/labgemini4/three_placement_scenarios/verification.json","repository","290","cb711081787b6fa8b2c6ff4854b8c5c3baf1b32bcdf41550a9b89795598fe811"
-"three scenarios MATLAB 2026-10-10","analysis/prepare_three_scenarios.py","repository","4155","b585eb2707226f5ec5a0938507d26b1a16620d73110f4745c180652f289d91ee"
-"three scenarios MATLAB 2026-10-10","matlab/evaluate_three_placement_scenarios.m","repository","12838","9c50760788e071b05bf1ee088d9a7a950dda778a348220fcd537a2c05ada2651"
-"11 service three cases MATLAB 2026-10-10","results/labgemini4/added11_three_cases/cdf_28GHz_100MHz.png","repository","82875","90f9cbc9bdf66f6f42d605b5d25cb432ebbc97f72b15a2bb2f4ee530a3831c07"
-"11 service three cases MATLAB 2026-10-10","results/labgemini4/added11_three_cases/cdf_28GHz_800MHz.png","repository","79486","1c5c566448c854a3cc39ec3195ecbacdd4731e7ac0a1252f03e782ccf69fcc2b"
-"11 service three cases MATLAB 2026-10-10","results/labgemini4/added11_three_cases/cdf_3p5GHz_100MHz.png","repository","80898","37625528376ed049b811f37b48e59da9e858dbe2df5fc375ed92e7e1480a1278"
-"11 service three cases MATLAB 2026-10-10","results/labgemini4/added11_three_cases/cdf_three_cases.png","repository","144301","81901f3757a69ceec366bf2ef60014956b43eac4e98a3fe187874cbb617a8e9d"
-"11 service three cases MATLAB 2026-10-10","results/labgemini4/added11_three_cases/cdf_values.csv","repository","1271312","dbdf375211b648e5f3f5e1fe2f297819473871bb7938a73ff4493d36fc16b829"
-"11 service three cases MATLAB 2026-10-10","results/labgemini4/added11_three_cases/degradation_by_case.csv","repository","1197","4ff072c5a94159eef1bc3ffa5e72bd0721e28f7e6c69e0ca2599aca0fa195c7e"
-"11 service three cases MATLAB 2026-10-10","results/labgemini4/added11_three_cases/external_sites.csv","repository","103","4792fb7eb3e35b46dc5a521886847a2a8c2d363b0e0cf4311d741e8ac0cc64d9"
-"11 service three cases MATLAB 2026-10-10","results/labgemini4/added11_three_cases/placement_changes.csv","repository","473","fb849471eaa9ddbf2e51926600d20fc0a4d1a8c43b6780badc62bf18b8221dde"
-"11 service three cases MATLAB 2026-10-10","results/labgemini4/added11_three_cases/positions_three_cases.csv","repository","3911926","2ae4eebd6de7414b0a9be552f6291344687554c1d66b579cc442aee5ed7e3ef0"
-"11 service three cases MATLAB 2026-10-10","results/labgemini4/added11_three_cases/README.md","repository","8977","7cf2f8923ad2ced981618c36ad17986c914fd7dd1047efe99a31e1503ed32861"
-"11 service three cases MATLAB 2026-10-10","results/labgemini4/added11_three_cases/run_metadata.json","repository","830","a476b9e5309d2a0afc483182b949fd3caf993f4d885968489f2c31e93fb8e978"
-"11 service three cases MATLAB 2026-10-10","results/labgemini4/added11_three_cases/service_sites.csv","repository","203","36612277e08ed02db8f694bf48dd5926897b7111bd65d18f720bd38c3b615342"
-"11 service three cases MATLAB 2026-10-10","results/labgemini4/added11_three_cases/sinr_28GHz_100MHz.png","repository","521276","b4c2351130532be44d94d78bc2c025b2993f5ebbc50bff47662db0af0e806ad4"
-"11 service three cases MATLAB 2026-10-10","results/labgemini4/added11_three_cases/sinr_28GHz_800MHz.png","repository","561590","8ff3f823643fbed0ed95dc802ef673623c14fa11e401ed4a40a31d96379b41ac"
-"11 service three cases MATLAB 2026-10-10","results/labgemini4/added11_three_cases/sinr_3p5GHz_100MHz.png","repository","497528","d0966ef8c70e98c8d7ef22c0a0b399bf19675e2b728309b8501069d567da9b20"
-"11 service three cases MATLAB 2026-10-10","results/labgemini4/added11_three_cases/sinr_before_after_three_cases.png","repository","1412081","e01410fef59781e080b40cdb8fc5e7fc97d8ebbb85dba3d48305bcbeaa3e128d"
-"11 service three cases MATLAB 2026-10-10","results/labgemini4/added11_three_cases/sinr_three_cases.png","repository","1425259","6cc77c72cdf1762a09bd26b415d7f3ff0262b2125ee6aca275b91db8aa7de1c6"
-"11 service three cases MATLAB 2026-10-10","results/labgemini4/added11_three_cases/step1_step2_comparisons.csv","repository","1487","9f7e7809f8a822a5543472472f0528c8a7ba0a019d29f4a3bd46b9650e509e33"
-"11 service three cases MATLAB 2026-10-10","results/labgemini4/added11_three_cases/summary.csv","repository","2808","05d463f7497da9e9c7925915006383b4668fd3607f645a7cb8b84bc259b8437b"
-"11 service three cases MATLAB 2026-10-10","results/labgemini4/added11_three_cases/three_cases_results.mat","repository","2742206","427df8478f3e70a4dc5131edf01085fc51ca1695e4656fab17ff3b5bfb2ce1d3"
-"11 service three cases MATLAB 2026-10-10","results/labgemini4/added11_three_cases/verification.json","repository","372","1a03dd64265a4be4f14559cf060d96b9cf23b8f6c1994ea77d874576e6876be8"
-"11 service three cases MATLAB 2026-10-10","analysis/summarize_added_sites_three_cases.py","repository","3808","6b495a0d42404688bf955e09544198d7948efecca8d90e0f9d339d6feaddb7a3"
-"11 service three cases MATLAB 2026-10-10","matlab/run_added_sites_three_cases.m","repository","10130","464d6a29fb8b33793140dce3c9221f0b8cae51fc8dbf746a4f792a20e020cb87"
+user maps / imagegen 2026-10-10,references/maps/sejong_boundary/naver_map_original.png,repository,291781,5c8ce3099c90a714420409fac329f3e7d4e76e905458634c3ef45652a1f749a3
+user maps / imagegen 2026-10-10,references/maps/sejong_boundary/boundary_reference_original.png,repository,344489,87f080f1e7cf97237f15c49e7e85e4fd3c0a14ab2758a09ffce391aaeaa1d569
+user maps / imagegen 2026-10-10,results/maps/sejong_7regions/sejong_boundary_7regions.png,repository,1693305,f1a96b29b871ad066f488fb3442d7357096d42c2d72721c97ac007f2ea4fe6ae
+user maps / imagegen 2026-10-10,results/maps/sejong_7regions/prompt.txt,repository,3889,bb87f71cf6316426b892ea15ea6f60e917a48ee6182f7b500814607da7329d77
+user maps / imagegen 2026-10-10,results/maps/sejong_7regions/README.md,repository,1609,69fc7baa1f2f4f01e055c36fd3e5d3810d3d14f0c98da50e38868c89bce93341
+provisional campus analysis 2026-10-10,results/labgemini4/weak_regions_provisional/analysis_summary.json,repository,5561,ec1a003549f56f84c0bc8e5f1dcac7f85bf2f5d086c283eb3f0e2e71d7916751
+provisional campus analysis 2026-10-10,results/labgemini4/weak_regions_provisional/boundary_vertices_estimated.csv,repository,1314,3db2a1a50bd32fa7de4fd259b972efb45628b9875b80f32cc6056a56c30d5bef
+provisional campus analysis 2026-10-10,results/labgemini4/weak_regions_provisional/campus_positions.csv,repository,1266702,cd1f8aab2bb0b53c9a5838397247d3f3734f766a1052b364da3b53f8d869d620
+provisional campus analysis 2026-10-10,results/labgemini4/weak_regions_provisional/extended_grid_sinr.csv,repository,2799161,3f761cc3dcf409ac16a40da55090d3b26bc1edd450bd2ef26e94590540c86341
+provisional campus analysis 2026-10-10,results/labgemini4/weak_regions_provisional/geometry_assumptions.json,repository,880,5e318b4d37e0773fa3bc04b9696a3b6840b4067276e54df921f3616ed93d6aab
+provisional campus analysis 2026-10-10,results/labgemini4/weak_regions_provisional/labgemini4_extended_grid.m,repository,8846,0018f0303dda4dc81821b418f407da02d9d6dcacf3ed5294a7196e27608ca529
+provisional campus analysis 2026-10-10,results/labgemini4/weak_regions_provisional/README.md,repository,9390,c20e63590a05453b5aeabe7b35057ef36e8bca89b95c5351eee21693c722a10f
+provisional campus analysis 2026-10-10,results/labgemini4/weak_regions_provisional/registration_anchors.csv,repository,429,a87427d0b8fb46cd49cec8e9b8b8713f94de5bcbe83d77e74e3d7a63a11d45aa
+provisional campus analysis 2026-10-10,results/labgemini4/weak_regions_provisional/verification.json,repository,510,e39b968426e8e922fb876a2bf19ea58ebb74692c96f922710592aab0eb58ad38
+provisional campus analysis 2026-10-10,results/labgemini4/weak_regions_provisional/weak_points.csv,repository,964,42c8952f43deea2a5a92c043f256899df290b5bd82b0813e4700c99d77fd5fab
+provisional campus analysis 2026-10-10,results/labgemini4/weak_regions_provisional/weak_regions_bottom10.png,repository,223132,32d99dc3b8fc1a4158a606b272c6eed34a54db852b77b933aa79cea1a39e0de4
+provisional campus analysis 2026-10-10,results/labgemini4/weak_regions_provisional/weak_regions_sinr.png,repository,637767,3998868bd9d5116e5f912610c718bab2068c03947eb2721e45bab49b1b2e857a
+provisional campus analysis 2026-10-10,analysis/weak_regions_provisional.py,repository,9914,98cf188a219ff8ea6633b512215896aaa8dc4fedab71ae767bca864b05cff2ad
+provisional campus analysis 2026-10-10,matlab/plot_provisional_weak_regions.m,repository,2943,f3be13408d657cb60ae1d51a31a7dbdc33ecc1b30430b3a35d6ebab16fdbeed5
+three scenarios MATLAB 2026-10-10,results/labgemini4/three_placement_scenarios/all_66_pairs.csv,repository,35008,30eb040274e2ba6bda7f8685ff894be1a5eb4e1a29f694280d5d5cdde28347f4
+three scenarios MATLAB 2026-10-10,results/labgemini4/three_placement_scenarios/candidates.csv,repository,1190,50f97f6c52ca5346415c8874fb5076287174ad13b80277a317169d98f6c3108c
+three scenarios MATLAB 2026-10-10,results/labgemini4/three_placement_scenarios/degradation_analysis.json,repository,297,ed401f103b583e65c239782ea6e41ff8e80fb2e3a35b5f4ae2c79a7f696a25ec
+three scenarios MATLAB 2026-10-10,results/labgemini4/three_placement_scenarios/factorial_3x3.csv,repository,1045,3f54327e2e58dda33d1528142bd77880cb277f3ecc8737a6d66d05c8cd79a2cf
+three scenarios MATLAB 2026-10-10,results/labgemini4/three_placement_scenarios/heldout_cdf_lower_tail.png,repository,108949,e118634e4393a907811d8bfa077a13c324ffb93c57317181fd4fc9393a978291
+three scenarios MATLAB 2026-10-10,results/labgemini4/three_placement_scenarios/README.md,repository,12430,d5844b1e3f42ab97bdf5c4e4b7859fe12adf4dd3e60150571604da3086b48639
+three scenarios MATLAB 2026-10-10,results/labgemini4/three_placement_scenarios/recommended_before_after.png,repository,1353225,279ba59c092b091159e593f2215ce65f0fc5f3e924ef7adbb4e1141c235dcd16
+three scenarios MATLAB 2026-10-10,results/labgemini4/three_placement_scenarios/run_summary.json,repository,1768,0616d6ceaf711ef9165ae11ed1574b7ba0298d68005a8631085d41579d4bf314
+three scenarios MATLAB 2026-10-10,results/labgemini4/three_placement_scenarios/scenario_comparison.csv,repository,1759,46e116890b4d4bd87034b8cf19ce4e708817661f789e4c2abe45fa1646268451
+three scenarios MATLAB 2026-10-10,results/labgemini4/three_placement_scenarios/scenario_results.mat,repository,18075,42060bf364b7b8f5916d548b22d8c3724364b2775ead9985fe1da34456cbc8ad
+three scenarios MATLAB 2026-10-10,results/labgemini4/three_placement_scenarios/scenario_settings.json,repository,1529,b6a9f4573bfbdef7a1b1da9d97944c335a191393b83da67185519d0edf3ef60d
+three scenarios MATLAB 2026-10-10,results/labgemini4/three_placement_scenarios/selected_positions.csv,repository,1457845,585707424fe0aba5e3b78825bbeb0caceab24eccbda8ee707fff6ae6ad5e3690
+three scenarios MATLAB 2026-10-10,results/labgemini4/three_placement_scenarios/sensitivity.csv,repository,2506,41f9e95d5b940b352959d340bc57fc89839c93d779cacdb7608a683b18aca5b7
+three scenarios MATLAB 2026-10-10,results/labgemini4/three_placement_scenarios/three_scenario_sites.png,repository,298466,9b6f508b609633aef05eaf10e931171274a9565a44a04d4036c2f1a45841ad18
+three scenarios MATLAB 2026-10-10,results/labgemini4/three_placement_scenarios/verification.json,repository,290,cb711081787b6fa8b2c6ff4854b8c5c3baf1b32bcdf41550a9b89795598fe811
+three scenarios MATLAB 2026-10-10,analysis/prepare_three_scenarios.py,repository,4155,b585eb2707226f5ec5a0938507d26b1a16620d73110f4745c180652f289d91ee
+three scenarios MATLAB 2026-10-10,matlab/evaluate_three_placement_scenarios.m,repository,12838,9c50760788e071b05bf1ee088d9a7a950dda778a348220fcd537a2c05ada2651
+11 service three cases MATLAB 2026-10-10,results/labgemini4/added11_three_cases/cdf_28GHz_100MHz.png,repository,82875,90f9cbc9bdf66f6f42d605b5d25cb432ebbc97f72b15a2bb2f4ee530a3831c07
+11 service three cases MATLAB 2026-10-10,results/labgemini4/added11_three_cases/cdf_28GHz_800MHz.png,repository,79486,1c5c566448c854a3cc39ec3195ecbacdd4731e7ac0a1252f03e782ccf69fcc2b
+11 service three cases MATLAB 2026-10-10,results/labgemini4/added11_three_cases/cdf_3p5GHz_100MHz.png,repository,80898,37625528376ed049b811f37b48e59da9e858dbe2df5fc375ed92e7e1480a1278
+11 service three cases MATLAB 2026-10-10,results/labgemini4/added11_three_cases/cdf_three_cases.png,repository,144301,81901f3757a69ceec366bf2ef60014956b43eac4e98a3fe187874cbb617a8e9d
+11 service three cases MATLAB 2026-10-10,results/labgemini4/added11_three_cases/cdf_values.csv,repository,1271312,dbdf375211b648e5f3f5e1fe2f297819473871bb7938a73ff4493d36fc16b829
+11 service three cases MATLAB 2026-10-10,results/labgemini4/added11_three_cases/degradation_by_case.csv,repository,1197,4ff072c5a94159eef1bc3ffa5e72bd0721e28f7e6c69e0ca2599aca0fa195c7e
+11 service three cases MATLAB 2026-10-10,results/labgemini4/added11_three_cases/external_sites.csv,repository,103,4792fb7eb3e35b46dc5a521886847a2a8c2d363b0e0cf4311d741e8ac0cc64d9
+11 service three cases MATLAB 2026-10-10,results/labgemini4/added11_three_cases/placement_changes.csv,repository,473,fb849471eaa9ddbf2e51926600d20fc0a4d1a8c43b6780badc62bf18b8221dde
+11 service three cases MATLAB 2026-10-10,results/labgemini4/added11_three_cases/positions_three_cases.csv,repository,3911926,2ae4eebd6de7414b0a9be552f6291344687554c1d66b579cc442aee5ed7e3ef0
+11 service three cases MATLAB 2026-10-10,results/labgemini4/added11_three_cases/README.md,repository,8977,7cf2f8923ad2ced981618c36ad17986c914fd7dd1047efe99a31e1503ed32861
+11 service three cases MATLAB 2026-10-10,results/labgemini4/added11_three_cases/run_metadata.json,repository,830,a476b9e5309d2a0afc483182b949fd3caf993f4d885968489f2c31e93fb8e978
+11 service three cases MATLAB 2026-10-10,results/labgemini4/added11_three_cases/service_sites.csv,repository,203,36612277e08ed02db8f694bf48dd5926897b7111bd65d18f720bd38c3b615342
+11 service three cases MATLAB 2026-10-10,results/labgemini4/added11_three_cases/sinr_28GHz_100MHz.png,repository,521276,b4c2351130532be44d94d78bc2c025b2993f5ebbc50bff47662db0af0e806ad4
+11 service three cases MATLAB 2026-10-10,results/labgemini4/added11_three_cases/sinr_28GHz_800MHz.png,repository,561590,8ff3f823643fbed0ed95dc802ef673623c14fa11e401ed4a40a31d96379b41ac
+11 service three cases MATLAB 2026-10-10,results/labgemini4/added11_three_cases/sinr_3p5GHz_100MHz.png,repository,497528,d0966ef8c70e98c8d7ef22c0a0b399bf19675e2b728309b8501069d567da9b20
+11 service three cases MATLAB 2026-10-10,results/labgemini4/added11_three_cases/sinr_before_after_three_cases.png,repository,1412081,e01410fef59781e080b40cdb8fc5e7fc97d8ebbb85dba3d48305bcbeaa3e128d
+11 service three cases MATLAB 2026-10-10,results/labgemini4/added11_three_cases/sinr_three_cases.png,repository,1425259,6cc77c72cdf1762a09bd26b415d7f3ff0262b2125ee6aca275b91db8aa7de1c6
+11 service three cases MATLAB 2026-10-10,results/labgemini4/added11_three_cases/step1_step2_comparisons.csv,repository,1487,9f7e7809f8a822a5543472472f0528c8a7ba0a019d29f4a3bd46b9650e509e33
+11 service three cases MATLAB 2026-10-10,results/labgemini4/added11_three_cases/summary.csv,repository,2808,05d463f7497da9e9c7925915006383b4668fd3607f645a7cb8b84bc259b8437b
+11 service three cases MATLAB 2026-10-10,results/labgemini4/added11_three_cases/three_cases_results.mat,repository,2742206,427df8478f3e70a4dc5131edf01085fc51ca1695e4656fab17ff3b5bfb2ce1d3
+11 service three cases MATLAB 2026-10-10,results/labgemini4/added11_three_cases/verification.json,repository,372,1a03dd64265a4be4f14559cf060d96b9cf23b8f6c1994ea77d874576e6876be8
+11 service three cases MATLAB 2026-10-10,analysis/summarize_added_sites_three_cases.py,repository,3808,6b495a0d42404688bf955e09544198d7948efecca8d90e0f9d339d6feaddb7a3
+11 service three cases MATLAB 2026-10-10,matlab/run_added_sites_three_cases.m,repository,10130,464d6a29fb8b33793140dce3c9221f0b8cae51fc8dbf746a4f792a20e020cb87
+generated/current project summary,docs/project/2026-10-10_작업총정리.md,repository,10932,0a9d4cc538d9660cc577dc0e1935a986c7b5d5cdbd72606a89f6b4497236b20d
+generated/current project summary,README.md,repository,6241,5e66d915c30cfacd88c97dd6647426de90e8742df03d4548ba36a971441968e5
+generated/current project summary,docs/FILE_INDEX.md,repository,19274,ba467fdcecc94da39b5c7a8071bbacb5ba2c11655f021ed0520d903ad8da3af7
+generated/current project summary,docs/project/진행기록.md,repository,7397,976df3207f50a48ed8db6d034d3e9a45a52b16a3ee0da00caa5d6a5eb7b011f2

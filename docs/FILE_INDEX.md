@@ -137,6 +137,8 @@
 
 ## 현재 진행 관리 문서
 
+- [2026-10-10 작업 총정리](project/2026-10-10_작업총정리.md): 오늘의 지도·취약점·추가 배치·세 조건 결과·수정사항·검증·후속 업무.
+
 - [서비스 11개·외부 6개 세 조건 비교](../results/labgemini4/added11_three_cases/): 동일 잠정 경계에서 추가 전후 MATLAB 계산, 개별·비교 SINR/CDF, 5백분위, 전체·실내·실외, 1·2단계 해석.
 - [추가 배치 시나리오 3개](../results/labgemini4/three_placement_scenarios/): 실제 MATLAB 조합 계산, 9조건 교차 비교, 잠정 권장 위치, 전후 그림, 악화율 및 경계·부하율 민감도.
 - [잠정 경계 내부 취약점 4곳](../results/labgemini4/weak_regions_provisional/): 실제 MATLAB 계산, 잠정 경계 좌표, 선정 기준, 민감도, 좌표 CSV와 그림. 정밀 경계 및 신규 기지국 선정 결과와 구분한다.
