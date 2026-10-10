@@ -10,6 +10,7 @@
 | 사용자 보관 수정 보고서 | [2일차 수정본](reports/day2/revisions/user/2일차_주파수_대역폭_비교_수정본.docx) |
 | MATLAB 실행 결과와 그림 | [labgemini4 결과](results/labgemini4/) |
 | 원본과 코드 변경 설명 | [코드 버전 안내](docs/CODE_VERSIONS.md) |
+| 완료 상태와 앞으로 할 일 | [7일 체크리스트](docs/project/팀작업_체크리스트.md) · [역할별 업무](docs/project/조원별_다음할일.md) |
 | 팀 일정과 1일차 체크리스트 | [프로젝트 문서](docs/project/) · [1일차 자료](docs/day1/) |
 | 발표자료 | [예제 발표 초안](presentations/) |
 | 전체 파일과 원본 확인 | [자료 목록](docs/FILE_INDEX.md) · [SHA-256 목록](data/file_manifest.csv) |

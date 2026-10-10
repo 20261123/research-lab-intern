@@ -19,7 +19,7 @@
 | Git | [docs/project/검증결과_요약.md](../docs/project/검증결과_요약.md) |
 | Git | [docs/project/좌표조사_안내.md](../docs/project/좌표조사_안내.md) |
 | Git | [docs/project/코드수정_검증안내.md](../docs/project/코드수정_검증안내.md) |
-| Git | [docs/project/팀작업_체크리스트.md](../docs/project/팀작업_체크리스트.md) |
+| Git | [archives/project_initial/팀작업_체크리스트.md](../archives/project_initial/팀작업_체크리스트.md) |
 | Git | [logs/campus_package_matlab_run.log](../logs/campus_package_matlab_run.log) |
 | Git | [matlab/campus_model/README.md](../matlab/campus_model/README.md) |
 | Git | [matlab/campus_model/input/sejong/buildings.csv](../matlab/campus_model/input/sejong/buildings.csv) |
@@ -134,3 +134,11 @@
 - `word_render.ps1`, `render_word.vbs`, 비어 있는 변환 폴더: 실패한 페이지 변환 임시 도구.
 - `Desktop/matlab저장`의 일반 수업 실습 파일: 통신 프로젝트와 무관한 자료. 연구실인턴 코드 버전 1~4와 campus_project.m은 포함.
 - 인증 파일, 실행 도구, 로그인 정보는 저장소 밖에서 관리.
+
+## 현재 진행 관리 문서
+
+- [7일 체크리스트](project/팀작업_체크리스트.md)
+- [조원별 다음 할 일](project/조원별_다음할일.md)
+- [진행 기록](project/진행기록.md)
+
+초기 체크리스트는 원본 이력으로 archives/project_initial에 보관하고 현재 진행 문서는 계속 갱신한다.
