@@ -47,7 +47,7 @@ MATLAB R2025a 실행 결과를 보관했습니다. 스크립트는 기존 변수
 ```text
 matlab/           현재 코드, 이전 버전, 별도 확률 채널 시뮬레이터
 reports/          원본 보고서와 사용자 및 Codex 수정본
-results/          labgemini4 실측 실행 산출물과 이전 실행 화면
+results/          labgemini4 MATLAB 실행 산출물과 이전 실행 화면
 docs/             체크리스트, 검증 안내, 버전 설명, 자료 목록
 data/             조사 기록과 파일별 SHA-256 목록
 presentations/    예제 발표자료
