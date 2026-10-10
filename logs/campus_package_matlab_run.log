@@ -1,0 +1,13 @@
+PASS: noise, capacity, UMa, breakpoint, O2I, quantiles, grid, interference, repeatability, survey gate.
+EXAMPLE ONLY - not Sejong: 43705 unique positions, 20 trials
+       phase         condition      group     samples     p05_mbps    median_mbps    mean_mbps    bottom5_mean_mbps    median_sinr_db
+    ____________    ____________    _____    _________    ________    ___________    _________    _________________    ______________
+
+    "validation"    "base35"        "all"    8.741e+05     32.206       263.02        330.43            12.41              7.1525    
+    "validation"    "add35"         "all"    8.741e+05     50.338       254.21         319.5            23.46              6.8345    
+    "validation"    "base28same"    "all"    8.741e+05     12.239       232.14        301.44           4.9471              6.0188    
+    "validation"    "add28same"     "all"    8.741e+05     24.673       231.51        296.64           9.9461              5.9948    
+    "validation"    "base28wide"    "all"    8.741e+05     32.776       1511.5        2117.7           12.309              4.3215    
+    "validation"    "add28wide"     "all"    8.741e+05     70.393       1589.3        2137.3             25.4              4.7174    
+
+Results: C:\Users\user\.codex\.chatgpt-projects\g-p-6ac48848a708819186677f0769430e90\campus_project\results\demo_20261006_152830_141

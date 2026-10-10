@@ -1,0 +1,23 @@
+# Local settings, credentials and temporary files
+.env
+.env.*
+!.env.example
+*.pem
+*.key
+*.pfx
+hosts.yml
+.github-tools/
+.build/
+.chart-data-*/
+__pycache__/
+*.pyc
+.DS_Store
+Thumbs.db
+~$*
+*.asv
+*.mlsettings
+slprj/
+*.mexw64
+# Large original MAT results are stored in GitHub Releases
+matlab/campus_model/results/demo_20261006_152830_141/selection_results.mat
+matlab/campus_model/results/demo_20261006_152830_141/validation_results.mat

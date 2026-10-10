@@ -1,0 +1,12 @@
+{
+  "status": "awaiting_survey",
+  "operator": "SKT",
+  "origin_description": "",
+  "origin_latitude_deg": null,
+  "origin_longitude_deg": null,
+  "axis_convention": "x east, y north, metres; azimuth east=0 north=90 counterclockwise",
+  "survey_date": "",
+  "map_source": "https://www.sejong.ac.kr/kor/intro/campus-map.do?type=BUILDING",
+  "station_source": "https://spectrummap.kr/gis/mobile_service.do?menuNo=300480",
+  "notes": "Fill actual surveyed CSVs first. The demo geometry is Soonchunhyang, not Sejong."
+}

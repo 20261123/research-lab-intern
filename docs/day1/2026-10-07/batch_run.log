@@ -1,0 +1,17 @@
+DAY 1 CHECK: synthetic Soonchunhyang geometry, NOT Sejong.
+PASS: noise, capacity, UMa, breakpoint, O2I, quantiles, grid, interference, repeatability, survey gate.
+EXAMPLE ONLY - not Sejong: 205 unique positions, 2 trials
+       phase         condition      group    samples    p05_mbps    median_mbps    mean_mbps    bottom5_mean_mbps    median_sinr_db
+    ____________    ____________    _____    _______    ________    ___________    _________    _________________    ______________
+
+    "validation"    "base35"        "all"      410        21.43       245.29        317.66           8.8769              6.5076    
+    "validation"    "add35"         "all"      410       26.168       240.57        305.63            11.45              6.3337    
+    "validation"    "base28same"    "all"      410       9.7376       209.95         285.5           4.0122              5.1663    
+    "validation"    "add28same"     "all"      410       17.545          210        282.23           7.2268               5.168    
+    "validation"    "base28wide"    "all"      410       26.896       1270.6        1985.9           10.979              3.0248    
+    "validation"    "add28wide"     "all"      410       58.447       1377.3        2000.1           25.098              3.6125    
+
+Results: C:\Users\user\.codex\.chatgpt-projects\g-p-6ac48848a708819186677f0769430e90\campus_project\results\demo_20261007_183950_454
+DAY 1 PASS. Quick check grid = 40 m, trials = 2.
+Final experiments must use surveyed Sejong data, 2.5 m and 20 trials.
+Log: C:\Users\user\.codex\.chatgpt-projects\g-p-6ac48848a708819186677f0769430e90\campus_project\day1\2026-10-07\MATLAB_check_20261007_183946_151.log
