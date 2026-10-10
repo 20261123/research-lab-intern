@@ -142,3 +142,7 @@
 - [진행 기록](project/진행기록.md)
 
 초기 체크리스트는 원본 이력으로 archives/project_initial에 보관하고 현재 진행 문서는 계속 갱신한다.
+
+## 공유용 PDF
+
+- [조원별 다음 할 일 PDF](../output/pdf/조원별_다음할일.pdf): 2026-10-10 역할별 배정안, 2쪽. 생성된 PDF의 크기와 SHA-256도 file_manifest.csv에 기록한다.

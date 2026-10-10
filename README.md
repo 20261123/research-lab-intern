@@ -11,6 +11,7 @@
 | MATLAB 실행 결과와 그림 | [labgemini4 결과](results/labgemini4/) |
 | 원본과 코드 변경 설명 | [코드 버전 안내](docs/CODE_VERSIONS.md) |
 | 완료 상태와 앞으로 할 일 | [7일 체크리스트](docs/project/팀작업_체크리스트.md) · [역할별 업무](docs/project/조원별_다음할일.md) |
+| 조원에게 전달할 PDF | [조원별 다음 할 일 PDF](output/pdf/조원별_다음할일.pdf) |
 | 팀 일정과 1일차 체크리스트 | [프로젝트 문서](docs/project/) · [1일차 자료](docs/day1/) |
 | 발표자료 | [예제 발표 초안](presentations/) |
 | 전체 파일과 원본 확인 | [자료 목록](docs/FILE_INDEX.md) · [SHA-256 목록](data/file_manifest.csv) |
