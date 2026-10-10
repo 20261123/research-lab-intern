@@ -145,4 +145,6 @@
 
 ## 공유용 PDF
 
+세 조건 SINR 그림·위치별 데이터·설정·검증 기록은 [heatmaps_three_cases](../results/labgemini4/heatmaps_three_cases/)에 보관한다. 재생성 함수는 [export_labgemini4_heatmaps.m](../matlab/export_labgemini4_heatmaps.m)이다.
+
 - [조원별 다음 할 일 PDF](../output/pdf/조원별_다음할일.pdf): 2026-10-10 역할별 배정안, 2쪽. 생성된 PDF의 크기와 SHA-256도 file_manifest.csv에 기록한다.

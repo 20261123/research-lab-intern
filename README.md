@@ -9,6 +9,7 @@
 | 현재 코드 실행 | [labgemini4.m](matlab/labgemini4.m) |
 | 사용자 보관 수정 보고서 | [2일차 수정본](reports/day2/revisions/user/2일차_주파수_대역폭_비교_수정본.docx) |
 | MATLAB 실행 결과와 그림 | [labgemini4 결과](results/labgemini4/) |
+| 세 조건 SINR 히트맵 | [3.5/100 · 28/100 · 28/800 비교](results/labgemini4/heatmaps_three_cases/) |
 | 원본과 코드 변경 설명 | [코드 버전 안내](docs/CODE_VERSIONS.md) |
 | 완료 상태와 앞으로 할 일 | [7일 체크리스트](docs/project/팀작업_체크리스트.md) · [역할별 업무](docs/project/조원별_다음할일.md) |
 | 조원에게 전달할 PDF | [조원별 다음 할 일 PDF](output/pdf/조원별_다음할일.pdf) |
