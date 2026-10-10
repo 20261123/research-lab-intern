@@ -131,3 +131,8 @@ generated:matlab/labgemini4.m,results/labgemini4/heatmaps_three_cases/sinr_3p5GH
 generated:matlab/labgemini4.m,results/labgemini4/heatmaps_three_cases/sinr_three_cases.png,repository,1172690,96a9b126dead0459ce768677834b9c9c443d1757346d46fa6898c78b7dbad628
 generated:matlab/labgemini4.m,results/labgemini4/heatmaps_three_cases/summary.csv,repository,449,cd4dc0db3ff6e1a21a09deed9a969571507a9333c5f0f2abf9239bf4ee283b89
 generated:matlab/labgemini4.m,results/labgemini4/heatmaps_three_cases/verification.json,repository,346,42aacf8951592e2fa59af9a58914bb8b0c3f05523237d33139130b6b54a5545b
+"user maps / imagegen 2026-10-10","references/maps/sejong_boundary/naver_map_original.png","repository","291781","5c8ce3099c90a714420409fac329f3e7d4e76e905458634c3ef45652a1f749a3"
+"user maps / imagegen 2026-10-10","references/maps/sejong_boundary/boundary_reference_original.png","repository","344489","87f080f1e7cf97237f15c49e7e85e4fd3c0a14ab2758a09ffce391aaeaa1d569"
+"user maps / imagegen 2026-10-10","results/maps/sejong_7regions/sejong_boundary_7regions.png","repository","1693305","f1a96b29b871ad066f488fb3442d7357096d42c2d72721c97ac007f2ea4fe6ae"
+"user maps / imagegen 2026-10-10","results/maps/sejong_7regions/prompt.txt","repository","3889","bb87f71cf6316426b892ea15ea6f60e917a48ee6182f7b500814607da7329d77"
+"user maps / imagegen 2026-10-10","results/maps/sejong_7regions/README.md","repository","1609","69fc7baa1f2f4f01e055c36fd3e5d3810d3d14f0c98da50e38868c89bce93341"
