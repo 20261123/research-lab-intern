@@ -11,6 +11,7 @@
 | MATLAB 실행 결과와 그림 | [labgemini4 결과](results/labgemini4/) |
 | 세 조건 SINR 히트맵 | [3.5/100 · 28/100 · 28/800 비교](results/labgemini4/heatmaps_three_cases/) |
 | 잠정 경계 내부 취약점 | [28 GHz·800 MHz 대표점 4곳·좌표·선정 근거](results/labgemini4/weak_regions_provisional/) |
+| 추가 기지국 선정 시나리오 | [후보 4·8·12곳 / 3함수 / 9조건 교차 비교와 권장 2곳](results/labgemini4/three_placement_scenarios/) |
 | 원본과 코드 변경 설명 | [코드 버전 안내](docs/CODE_VERSIONS.md) |
 | 완료 상태와 앞으로 할 일 | [7일 체크리스트](docs/project/팀작업_체크리스트.md) · [역할별 업무](docs/project/조원별_다음할일.md) |
 | 조원에게 전달할 PDF | [조원별 다음 할 일 PDF](output/pdf/조원별_다음할일.pdf) |
