@@ -6,6 +6,7 @@
 
 | 목적 | 자료 |
 |---|---|
+| 최신 11개 배치 결과·실행 | [세 조건 히트맵·CDF·5백분위·1/2단계 비교](results/labgemini4/added11_three_cases/) · [MATLAB 실행 함수](matlab/run_added_sites_three_cases.m) |
 | 현재 코드 실행 | [labgemini4.m](matlab/labgemini4.m) |
 | 사용자 보관 수정 보고서 | [2일차 수정본](reports/day2/revisions/user/2일차_주파수_대역폭_비교_수정본.docx) |
 | MATLAB 실행 결과와 그림 | [labgemini4 결과](results/labgemini4/) |
@@ -22,6 +23,8 @@
 ## 자료 구분
 
 **현재 세종대 좌표 기반 코드는 `matlab/labgemini4.m`입니다.** 9개 서비스 사이트, 6개 외부 사이트, 7개 건물 영역과 26,741개 평가 위치를 사용합니다. 좌표 조사 출처와 사업자 정보의 확정 여부는 별도 조사 기록을 확인해야 합니다.
+
+추가 배치의 최신 비교는 `matlab/run_added_sites_three_cases.m`으로 실행한다. labgemini4 수식을 유지하고 서비스 11개·외부 6개·같은 잠정 경계 내부 17,922개 위치에서 세 조건을 계산한다. 아래 기존 9개 사이트·사각 영역 수치와 직접 섞지 않는다. 최신 11개 배치 5백분위는 3.5/100 **65.02**, 28/100 **32.91**, 28/800 **51.40 Mbps**다.
 
 `matlab/campus_model`은 앞서 만든 별도 확률 채널·배치 탐색 시뮬레이터입니다. 그 안의 `demo_*` 결과와 `presentations`의 발표 초안은 **순천향대 예제 영역을 사용한 검증 예제이며 세종대 최종 결과가 아닙니다.** 해당 패키지의 세종대 입력 양식은 아직 `awaiting_survey` 상태입니다. 이 예제 수치를 labgemini4 결과와 섞어 사용하지 않습니다.
 
