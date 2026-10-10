@@ -58,7 +58,7 @@ tools/            이전 문서·발표 생성 스크립트
 
 ## 원시 결과 보관
 
-GitHub 단일 파일 제한을 넘는 예제 원시 MAT 두 개는 같은 비공개 저장소의 **Releases → data-archive-2026-10-10**에 보관합니다. [원시 결과 안내](docs/LARGE_FILES.md)에 다운로드 후 복원 위치와 SHA-256을 적었습니다. 작은 MAT와 CSV 및 모든 결과 그림은 저장소에 포함합니다.
+GitHub 단일 파일 제한을 넘는 예제 원시 MAT 두 개는 같은 비공개 저장소의 [Releases → data-archive-2026-10-10](https://github.com/20261123/research-lab-intern/releases/tag/data-archive-2026-10-10)에 보관합니다. [원시 결과 안내](docs/LARGE_FILES.md)에 다운로드 후 복원 위치와 SHA-256을 적었습니다. 작은 MAT와 CSV 및 모든 결과 그림은 저장소에 포함합니다.
 
 ## 보고서와 자료 사용 시 참고
 

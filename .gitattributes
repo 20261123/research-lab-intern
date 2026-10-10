@@ -1,8 +1,5 @@
-* text=auto
-*.m text eol=lf
-*.md text eol=lf
-*.json text eol=lf
-*.csv text eol=lf
+# Preserve imported files byte-for-byte so manifest SHA-256 values remain valid.
+* -text
 *.docx binary
 *.pptx binary
 *.pdf binary
