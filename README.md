@@ -6,6 +6,7 @@
 
 | 목적 | 자료 |
 |---|---|
+| 확률 검증·기지국 장애·대응 | [독립 20회 / 단일·이중 장애 66패턴 / 스트레스·복구·대체 대역](results/labgemini4/random20_resilience/) |
 | 오늘 전체 정리 | [2026-10-10 수정사항·결과·해석·남은 업무](docs/project/2026-10-10_작업총정리.md) |
 | 최신 11개 배치 결과·실행 | [세 조건 히트맵·CDF·5백분위·1/2단계 비교](results/labgemini4/added11_three_cases/) · [MATLAB 실행 함수](matlab/run_added_sites_three_cases.m) |
 | 현재 코드 실행 | [labgemini4.m](matlab/labgemini4.m) |

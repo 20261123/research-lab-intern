@@ -1,0 +1,14 @@
+{
+  "trial_seed_count": 20,
+  "locations": 17922,
+  "all_groups_have_20_unique_seeds": true,
+  "normal_28_capacity_realizations_are_distinct": true,
+  "higher_bandwidth_rate_order": true,
+  "deterministic_reference_max_error_Mbps": 2.546585164964199e-11,
+  "site10_11_outage_equals_baseline9": "off_10_11 and baseline9 compared in postprocessing",
+  "near_link_note": "495 site-location links have d2D<10 m; inherited extrapolation, no full standard applicability claim",
+  "total_scenarios": 80,
+  "total_metric_rows": 14400,
+  "baseline9_equals_both_added_off_max_P5_error_Mbps": 0,
+  "finite_positive_P5": true
+}
