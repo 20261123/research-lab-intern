@@ -1,0 +1,10 @@
+{
+  "MATLAB_link_equivalence_verified": true,
+  "n_positions": 17922,
+  "n_unique_candidates": 12,
+  "n_unique_pairs": 66,
+  "n_factorial_conditions": 9,
+  "recommended_8_and_12_p5_same_pair": true,
+  "coordinates_and_p5_verified": true,
+  "physical_feasibility_confirmed": false
+}

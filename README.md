@@ -1,80 +1,79 @@
-# 연구실인턴 캠퍼스 통신 시뮬레이션
+# 세종대 캠퍼스 통신 시뮬레이션 포트폴리오
 
-세종대 캠퍼스에서 3.5 GHz와 28 GHz의 SINR 및 Shannon 전송률을 비교하고, 기지국 추가 배치를 검토하는 MATLAB 미니프로젝트 자료 모음입니다.
+**3.5 GHz·28 GHz 채널 비교, 취약 사용자 분석, 기지국 두 곳 선정, 독립 난수 20회와 장애 복원력 검증을 연결한 조별 프로젝트입니다.**
 
-## 처음 볼 자료
+MATLAB · Python · 3GPP TR 38.901 참고 · GitHub 자료 관리
 
-| 목적 | 자료 |
+실험 데이터 기준 **2026-10-10**, 포트폴리오 구조 정리 **2026-10-12**. 현재 공개 범위는 기존 **비공개 저장소**입니다.
+
+## 처음 보는 사람을 위한 읽는 순서
+
+| 목적 | 바로 열기 |
 |---|---|
-| 발표자가 처음 읽을 자료 | [34쪽 상세 해설 PDF](output/pdf/세종대_통신프로젝트_발표자_상세해설서.pdf) · [수정 가능한 읽기본](docs/project/발표자_상세해설서.md) |
-| 확률 검증·기지국 장애·대응 | [독립 20회 / 단일·이중 장애 66패턴 / 스트레스·복구·대체 대역](results/labgemini4/random20_resilience/) |
-| 오늘 전체 정리 | [2026-10-10 수정사항·결과·해석·남은 업무](docs/project/2026-10-10_작업총정리.md) |
-| 최신 11개 배치 결과·실행 | [세 조건 히트맵·CDF·5백분위·1/2단계 비교](results/labgemini4/added11_three_cases/) · [MATLAB 실행 함수](matlab/run_added_sites_three_cases.m) |
-| 현재 코드 실행 | [labgemini4.m](matlab/labgemini4.m) |
-| 사용자 보관 수정 보고서 | [2일차 수정본](reports/day2/revisions/user/2일차_주파수_대역폭_비교_수정본.docx) |
-| MATLAB 실행 결과와 그림 | [labgemini4 결과](results/labgemini4/) |
-| 세 조건 SINR 히트맵 | [3.5/100 · 28/100 · 28/800 비교](results/labgemini4/heatmaps_three_cases/) |
-| 잠정 경계 내부 취약점 | [28 GHz·800 MHz 대표점 4곳·좌표·선정 근거](results/labgemini4/weak_regions_provisional/) |
-| 추가 기지국 선정 시나리오 | [후보 4·8·12곳 / 3함수 / 9조건 교차 비교와 권장 2곳](results/labgemini4/three_placement_scenarios/) |
-| 원본과 코드 변경 설명 | [코드 버전 안내](docs/CODE_VERSIONS.md) |
-| 완료 상태와 앞으로 할 일 | [7일 체크리스트](docs/project/팀작업_체크리스트.md) · [역할별 업무](docs/project/조원별_다음할일.md) |
-| 조원에게 전달할 PDF | [조원별 다음 할 일 PDF](output/pdf/조원별_다음할일.pdf) |
-| 팀 일정과 1일차 체크리스트 | [프로젝트 문서](docs/project/) · [1일차 자료](docs/day1/) |
-| 발표자료 | [예제 발표 초안](presentations/) |
-| 전체 파일과 원본 확인 | [자료 목록](docs/FILE_INDEX.md) · [SHA-256 목록](data/file_manifest.csv) |
+| 프로젝트가 무엇을 해결했는지 | [포트폴리오 사례 설명](01_portfolio/CASE_STUDY.md) |
+| 두 기지국 위치를 어떻게 골랐는지 | [위치 선정 과정](04_site_selection/PLACEMENT_PROCESS.md) |
+| 발표자가 자세히 이해하고 싶다면 | [34쪽 상세 해설 PDF](07_presentation/01_presenter_guide/세종대_통신프로젝트_발표자_상세해설서.pdf) · [읽기본](07_presentation/01_presenter_guide/발표자_상세해설서.md) |
+| 최신 그림과 수치를 확인하려면 | [서비스 11개 세 조건](05_comparison_results/03_added11_campus/) |
+| 20회 검증과 장애 대응을 확인하려면 | [확률·장애·대응](06_resilience/20_trials_and_failures/) |
+| 코드를 직접 재현하려면 | [실행 순서](02_code/REPRODUCE.md) |
 
-## 자료 구분
+## 문제와 접근
 
-**현재 세종대 좌표 기반 코드는 `matlab/labgemini4.m`입니다.** 9개 서비스 사이트, 6개 외부 사이트, 7개 건물 영역과 26,741개 평가 위치를 사용합니다. 좌표 조사 출처와 사업자 정보의 확정 여부는 별도 조사 기록을 확인해야 합니다.
+높은 주파수와 넓은 대역폭의 장단점을 동일 조건에서 분리하고, 전체 평균만으로 놓치기 쉬운 실내·저성능 사용자를 보완할 두 위치를 선정했습니다. 추가 사이트의 간섭 부작용과 장애 의존성까지 확인했습니다.
 
-추가 배치의 최신 비교는 `matlab/run_added_sites_three_cases.m`으로 실행한다. labgemini4 수식을 유지하고 서비스 11개·외부 6개·같은 잠정 경계 내부 17,922개 위치에서 세 조건을 계산한다. 아래 기존 9개 사이트·사각 영역 수치와 직접 섞지 않는다. 최신 11개 배치 5백분위는 3.5/100 **65.02**, 28/100 **32.91**, 28/800 **51.40 Mbps**다.
-
-`matlab/campus_model`은 앞서 만든 별도 확률 채널·배치 탐색 시뮬레이터입니다. 그 안의 `demo_*` 결과와 `presentations`의 발표 초안은 **순천향대 예제 영역을 사용한 검증 예제이며 세종대 최종 결과가 아닙니다.** 해당 패키지의 세종대 입력 양식은 아직 `awaiting_survey` 상태입니다. 이 예제 수치를 labgemini4 결과와 섞어 사용하지 않습니다.
-
-## 현재 코드 실행
-
-MATLAB에서 저장소 루트를 현재 폴더로 지정하고 실행합니다.
-
-```matlab
-run(fullfile('matlab', 'labgemini4.m'));
+```mermaid
+flowchart LR
+    A[단위·안테나·표본 점검] --> B[잠정 캠퍼스 경계]
+    B --> C[주파수·대역폭 비교]
+    C --> D[취약 구간 4곳]
+    D --> E[후보·평가함수 교차 비교]
+    E --> F[추가 2곳 선정]
+    F --> G[동일 경계 추가 전후]
+    G --> H[독립 SF 20회]
+    H --> I[장애·악화·대응]
 ```
 
-MATLAB R2025a 실행 결과를 보관했습니다. 스크립트는 기존 변수를 지우고 열린 그림을 닫은 뒤 실행됩니다. 수정 전 버전은 `matlab/legacy`에 보존했습니다.
+## 핵심 결과
 
-| 조건 | 평균 Mbps | 중앙값 Mbps | 5백분위 Mbps |
-|---|---:|---:|---:|
-| 3.5 GHz / 100 MHz | 155.61 | 129.31 | 2.69 |
-| 28 GHz / 100 MHz | 134.60 | 103.51 | 2.33 |
-| 28 GHz / 800 MHz | 802.89 | 481.89 | 7.32 |
+**고정 채널**, 서비스 11개·외부 간섭 6개·잠정 경계 내부 17,922개 위치의 결과입니다. 단위 Mbps.
 
-간섭 부하율은 0.5, 섹터당 전력은 43 dBm, NF는 7 dB입니다. 5백분위는 정렬한 사용자 전송률의 1,338번째 값이며 하위 5% 평균과 다릅니다. 이 수치는 위치별 단일 스트림 Shannon 전송률로, 실제 다운로드 속도나 셀 총 처리량을 뜻하지 않습니다.
+| 조건 | 전송률 중앙값 | 전송률 5백분위 |
+|---|---:|---:|
+| 3.5 GHz / 100 MHz | 177.29 | 65.02 |
+| 28 GHz / 100 MHz | 147.68 | 32.91 |
+| 28 GHz / 800 MHz | 797.61 | 51.40 |
 
-![동일 대역폭의 SINR 비교](results/labgemini4/heatmaps.png)
+- 같은 100 MHz에서 28 GHz는 P5가 낮았습니다. 800 MHz는 전체 중앙값을 높였지만 실내 취약성을 모두 해소하지는 못했습니다.
+- 추가 좌표는 **(-127.5,260), (-17.5,22.5) m**입니다. 같은 경계의 28/800 P5가 **8.82→51.40 Mbps**로 높아졌습니다.
+- **확률 확장**에서는 새 섀도 페이딩 환경 20개 모두 기존 9개 대비 P5가 개선됐습니다. 정상 11개 28/800의 시행별 P5 평균은 **58.15 Mbps**입니다.
+- 28/800에서 최악 단일 장애는 추가 11번, 이중 장애는 1+11번 중단입니다. P5 평균은 각각 **25.69 / 15.98 Mbps**이며, 이중 장애 때 11번을 먼저 복구하면 **54.43 Mbps**였습니다.
 
-![대표 조건의 Capacity CDF](results/labgemini4/capacity_cdf.png)
+고정 채널 P5와 확률 모델의 **시행별 P5 평균**은 다른 지표입니다. 근거 CSV·설정·검증을 각 결과 폴더에 보관했습니다.
 
-## 폴더 구성
+![같은 배치의 세 조건 SINR](05_comparison_results/03_added11_campus/sinr_three_cases.png)
 
-```text
-matlab/           현재 코드, 이전 버전, 별도 확률 채널 시뮬레이터
-reports/          원본 보고서와 사용자 및 Codex 수정본
-results/          labgemini4 MATLAB 실행 산출물과 이전 실행 화면
-docs/             체크리스트, 검증 안내, 버전 설명, 자료 목록
-data/             조사 기록과 파일별 SHA-256 목록
-presentations/    예제 발표자료
-references/       과제 안내, 원본 MATLAB, 참고 보고서, 3GPP 문서
-archives/         기존 배포 패키지
-tools/            이전 문서·발표 생성 스크립트
-```
+![장애 복구와 이상적 대체 대역 비교](06_resilience/20_trials_and_failures/worst2_response_comparison.png)
 
-## 원시 결과 보관
+## 주제별 폴더
 
-GitHub 단일 파일 제한을 넘는 예제 원시 MAT 두 개는 같은 비공개 저장소의 [Releases → data-archive-2026-10-10](https://github.com/20261123/research-lab-intern/releases/tag/data-archive-2026-10-10)에 보관합니다. [원시 결과 안내](docs/LARGE_FILES.md)에 다운로드 후 복원 위치와 SHA-256을 적었습니다. 작은 MAT와 CSV 및 모든 결과 그림은 저장소에 포함합니다.
+| 폴더 | 포함 자료 |
+|---|---|
+| [01_portfolio](01_portfolio/) | 사례 설명, 전체 목록, 해시·이동 이력·구조 검증 |
+| [02_code](02_code/) | 현재 MATLAB·Python, 코드 설명과 재현 절차 |
+| [03_campus_data](03_campus_data/) | 지도 원본·개념도·조사 입력 |
+| [04_site_selection](04_site_selection/) | 경계·취약점·후보·평가함수·조합·선정 좌표 |
+| [05_comparison_results](05_comparison_results/) | 주파수·대역폭·추가 전후 히트맵·CDF·CSV·MAT |
+| [06_resilience](06_resilience/) | 독립 20회·기지국 장애·스트레스·대응 |
+| [07_presentation](07_presentation/) | 발표자 PDF·읽기본·구성 안내, 예제 PPT |
+| [08_project_management](08_project_management/) | 현재 체크리스트·역할·진행 기록·1일차 자료 |
+| [09_references_archive](09_references_archive/) | 과제·표준·원본·이전 버전·예제·보고서·로그 |
 
-## 보고서와 자료 사용 시 참고
+작은 CSV·JSON·실행 로그·그림은 관련 단계의 폴더에 함께 묶고, 폴더별 README와 [전체 자료 목록](01_portfolio/catalog/FILE_INDEX.md)에서 찾도록 구성했습니다. [이전→현재 경로표](01_portfolio/catalog/path_migration_2026-10-12.csv)로 과거 링크를 추적할 수 있습니다.
 
-- 보고서는 원본, 사용자 수정본, Codex 생성본을 모두 보존했습니다. Codex 생성본은 수치·그림을 MATLAB 실행값과 대조했지만 Word 페이지 배치의 시각적 검증은 완료되지 않았습니다.
-- 현재 코드는 모든 링크에 동일한 NLOS 형태의 식과 외벽 손실을 적용하는 단순화입니다. LOS 확률·shadow fading·실내 이동거리 손실·실제 스케줄링은 포함하지 않습니다.
-- 과거 발표 초안과 1일차 문서는 작성 당시의 상태를 보존한 자료입니다. 현재 코드 상태는 이 README와 버전 안내를 기준으로 확인합니다.
-- 참고 문서는 작성 기관·원저자의 권리가 적용됩니다. 별도 오픈소스 라이선스는 지정하지 않았습니다.
-- MATLAB 개인 환경 설정, 중복 미리보기, 실패한 Word 변환 파일과 프로젝트 밖의 일반 MATLAB 수업 실습 파일은 자료에 포함하지 않았습니다.
+## 검증 범위와 현재 상태
+
+실제 MATLAB 실행과 단위·표본·통계·기존 수치 일치를 검증했습니다. 원본 및 이전 버전은 보존했습니다. 팀 프로젝트의 결과물이며 개별 팀원 기여를 임의로 확정하지 않았습니다.
+
+경계·후보 설치·높이는 잠정입니다. 위치별 Shannon 전송률은 실제 다운로드 속도나 셀 총 처리량이 아닙니다. SF 확장은 완전한 LOS/NLOS·이동·빠른 페이딩 모델이 아니며, 장애 대응은 재접속 지연·부하 재분배를 제외한 이상적 조건을 포함합니다. 검토한 후보 중 최선으로, 전역·장애 최적 배치를 확정하지 않았습니다.
+
+**완료:** 코드·계산·위치 선정 근거·확률/장애 검증·34쪽 해설서·자료 정리. **남음:** 정밀 경계·현장 설치 확인·최종 모델·세종대 최종 PPT·팀 리허설·제출. [체크리스트](08_project_management/current/팀작업_체크리스트.md)

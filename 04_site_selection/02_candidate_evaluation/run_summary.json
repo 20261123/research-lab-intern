@@ -1,0 +1,114 @@
+{
+  "status": "PROVISIONAL_MODEL_PLACEMENT",
+  "source": "labgemini4",
+  "condition": "28 GHz / 800 MHz",
+  "MATLAB_version": "25.1.0.2973910 (R2025a) Update 1",
+  "n_train": 8960,
+  "n_held": 8962,
+  "n_all": 17922,
+  "baseline_train_metrics": [
+    8.819199591014145,
+    652.3183888797994,
+    938.6203954421537,
+    0,
+    1,
+    0,
+    1.5051987732079113,
+    3.6201711378357286,
+    6.117328119214433,
+    7.146317201574889
+  ],
+  "baseline_held_metrics": [
+    8.784675488671441,
+    651.9986369652204,
+    937.4088391426808,
+    0,
+    1,
+    0,
+    1.5060414429718985,
+    3.655736485514553,
+    6.018827219024414,
+    7.23718724440259
+  ],
+  "baseline_all_metrics": [
+    8.819177509585595,
+    652.1055633976432,
+    938.0145496907935,
+    0,
+    1,
+    0,
+    1.5051987732079113,
+    3.637634042188905,
+    6.018827219024414,
+    7.1888284670430185
+  ],
+  "metric_order": [
+    "p5_Mbps",
+    "median_Mbps",
+    "mean_Mbps",
+    "worsened_pct",
+    "worst_region_p5_ratio",
+    "mean_log_capacity_ratio",
+    "W1_p5_Mbps",
+    "W2_p5_Mbps",
+    "W3_p5_Mbps",
+    "W4_p5_Mbps"
+  ],
+  "winner_among_primary_three": 3,
+  "final_recommendation": {
+    "candidate_count": 8,
+    "objective_number": 1,
+    "site_ids": [
+      "W3C1",
+      "W4C2"
+    ],
+    "coordinates_m": [
+      [
+        -127.5,
+        260
+      ],
+      [
+        -17.5,
+        22.5
+      ]
+    ],
+    "held_metrics": [
+      51.32458061141085,
+      799.048620155629,
+      1093.3508539798265,
+      79.20107118946663,
+      1.6809544990749208,
+      0.4207425083047756,
+      20.30962793457214,
+      6.145126692758027,
+      140.72659715960668,
+      133.63500295025142
+    ],
+    "all_metrics": [
+      51.399082042706226,
+      797.6102769314937,
+      1093.64957002939,
+      79.19875013949336,
+      1.7007926733491348,
+      0.4204567674354717,
+      20.21270861184371,
+      6.186861327280287,
+      138.76415799711873,
+      138.9059908625185
+    ]
+  },
+  "source_link_max_relative_error_S": 9.965841357542675e-15,
+  "source_link_max_relative_error_I": 3.062848910561727e-14,
+  "pair_count_unique": 66,
+  "scenario_pair_counts": [
+    6,
+    28,
+    66
+  ],
+  "all_sites_height_m": 25,
+  "new_sector_power_dBm": 43,
+  "load_factor": 0.5,
+  "independent_random_validation": false,
+  "surveyed_feasibility": false,
+  "global_optimality_proven": false
+}

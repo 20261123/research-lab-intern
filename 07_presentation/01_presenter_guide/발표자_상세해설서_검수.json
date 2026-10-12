@@ -1,0 +1,16 @@
+{
+  "output": "07_presentation/01_presenter_guide/세종대_통신프로젝트_발표자_상세해설서.pdf",
+  "pages": 34,
+  "bookmarks": 34,
+  "rendered_pages": 34,
+  "visual_review": "all pages, selected dense pages inspected at full size",
+  "text_safety_bounds": "passed",
+  "section_page_alignment": "passed",
+  "required_numbers": "passed",
+  "source_original_preserved": true,
+  "pdf_sha256": "615e0dfbd931c01efd0754c7b48bf6386eb57dc89a49e39d3cad73059ec8c869",
+  "pdf_bytes": 3575804,
+  "note": "Presenter reading and rehearsal are not completed by generating this artifact.",
+  "reorganized_on": "2026-10-12",
+  "source_paths_refreshed": true
+}

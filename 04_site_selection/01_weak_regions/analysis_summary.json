@@ -1,0 +1,276 @@
+{
+  "status": "PROVISIONAL_BOUNDARY",
+  "condition": "28 GHz / 800 MHz",
+  "load_factor": 0.5,
+  "n_campus_positions": 17922,
+  "n_indoor": 4601,
+  "p5_capacity_Mbps": 8.819177509585595,
+  "p10_capacity_Mbps": 25.373837792435683,
+  "median_capacity_Mbps": 652.1055633976438,
+  "n_qualifying_centres": 1473,
+  "n_weak_representatives": 4,
+  "separation_m": 75,
+  "local_radius_m": 25,
+  "min_local_samples": 50,
+  "min_bottom10_fraction": 0.5,
+  "boundary_sensitivity_m": 30,
+  "max_difference_from_original_overlap_dB": 0.0,
+  "min_pair_distance_m": 75.20804478245661,
+  "sensitivity": [
+    {
+      "boundary": "contract_30m",
+      "separation_m": 50,
+      "n_positions": 11256,
+      "n_representatives": 4,
+      "p10_capacity_Mbps": 27.54031028391989,
+      "points": [
+        [
+          -102.5,
+          252.5
+        ],
+        [
+          -47.5,
+          142.5
+        ],
+        [
+          15.0,
+          22.5
+        ],
+        [
+          -45.0,
+          77.5
+        ]
+      ]
+    },
+    {
+      "boundary": "contract_30m",
+      "separation_m": 75,
+      "n_positions": 11256,
+      "n_representatives": 4,
+      "p10_capacity_Mbps": 27.54031028391989,
+      "points": [
+        [
+          -102.5,
+          252.5
+        ],
+        [
+          -47.5,
+          142.5
+        ],
+        [
+          15.0,
+          22.5
+        ],
+        [
+          -45.0,
+          67.5
+        ]
+      ]
+    },
+    {
+      "boundary": "contract_30m",
+      "separation_m": 100,
+      "n_positions": 11256,
+      "n_representatives": 3,
+      "p10_capacity_Mbps": 27.54031028391989,
+      "points": [
+        [
+          -102.5,
+          252.5
+        ],
+        [
+          -47.5,
+          142.5
+        ],
+        [
+          15.0,
+          22.5
+        ]
+      ]
+    },
+    {
+      "boundary": "base",
+      "separation_m": 50,
+      "n_positions": 17922,
+      "n_representatives": 5,
+      "p10_capacity_Mbps": 25.373837792435683,
+      "points": [
+        [
+          -75.0,
+          77.5
+        ],
+        [
+          -47.5,
+          137.5
+        ],
+        [
+          -95.0,
+          260.0
+        ],
+        [
+          15.0,
+          22.5
+        ],
+        [
+          -25.0,
+          70.0
+        ]
+      ]
+    },
+    {
+      "boundary": "base",
+      "separation_m": 75,
+      "n_positions": 17922,
+      "n_representatives": 4,
+      "p10_capacity_Mbps": 25.373837792435683,
+      "points": [
+        [
+          -75.0,
+          77.5
+        ],
+        [
+          -47.5,
+          147.5
+        ],
+        [
+          -95.0,
+          260.0
+        ],
+        [
+          15.0,
+          22.5
+        ]
+      ]
+    },
+    {
+      "boundary": "base",
+      "separation_m": 100,
+      "n_positions": 17922,
+      "n_representatives": 3,
+      "p10_capacity_Mbps": 25.373837792435683,
+      "points": [
+        [
+          -75.0,
+          77.5
+        ],
+        [
+          -95.0,
+          260.0
+        ],
+        [
+          15.0,
+          22.5
+        ]
+      ]
+    },
+    {
+      "boundary": "expand_30m",
+      "separation_m": 50,
+      "n_positions": 25546,
+      "n_representatives": 6,
+      "p10_capacity_Mbps": 35.261640229570304,
+      "points": [
+        [
+          -105.0,
+          80.0
+        ],
+        [
+          -55.0,
+          77.5
+        ],
+        [
+          -47.5,
+          137.5
+        ],
+        [
+          -95.0,
+          260.0
+        ],
+        [
+          15.0,
+          22.5
+        ],
+        [
+          -107.5,
+          30.0
+        ]
+      ]
+    },
+    {
+      "boundary": "expand_30m",
+      "separation_m": 75,
+      "n_positions": 25546,
+      "n_representatives": 4,
+      "p10_capacity_Mbps": 35.261640229570304,
+      "points": [
+        [
+          -105.0,
+          80.0
+        ],
+        [
+          -47.5,
+          137.5
+        ],
+        [
+          -95.0,
+          260.0
+        ],
+        [
+          15.0,
+          22.5
+        ]
+      ]
+    },
+    {
+      "boundary": "expand_30m",
+      "separation_m": 100,
+      "n_positions": 25546,
+      "n_representatives": 4,
+      "p10_capacity_Mbps": 35.261640229570304,
+      "points": [
+        [
+          -105.0,
+          80.0
+        ],
+        [
+          -95.0,
+          260.0
+        ],
+        [
+          15.0,
+          22.5
+        ],
+        [
+          -45.0,
+          160.0
+        ]
+      ]
+    }
+  ],
+  "geometry": {
+    "status": "PROVISIONAL_NOT_SURVEYED",
+    "affine_pixel_to_m": [
+      [
+        0.6705783164825957,
+        -0.17394820032733957
+      ],
+      [
+        -0.014469641436672287,
+        -0.7255335002419315
+      ],
+      [
+        -173.30686776038362,
+        590.4150498009316
+      ]
+    ],
+    "rms_anchor_residual_m": 16.65230446905714,
+    "max_anchor_residual_m": 29.208054441292063,
+    "notes": [
+      "Original screenshot visual footprint centres; not exact GIS controls.",
+      "Boundary manually estimated from two user screenshots; clipped north/south parts extrapolated.",
+      "West trace constrained to contain all seven provided building rectangles; not surveyed.",
+      "30 m boundary sensitivity band is a working sensitivity choice, not a statistical confidence interval."
+    ],
+    "source_code_sha256": "fdc2d68d66fce45dcdbf8df10f8ed9147420ad42dbe2efe778578c06a9b65814"
+  }
+}

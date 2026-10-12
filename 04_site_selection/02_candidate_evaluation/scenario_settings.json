@@ -1,0 +1,43 @@
+{
+  "status": "PROVISIONAL_GEOMETRIC_SITES_NOT_INSTALLATION_VERIFIED",
+  "candidate_sets": [
+    {
+      "scenario": "S1",
+      "n_candidates": 4,
+      "n_pairs": 6,
+      "objective": "maximize overall p5 capacity"
+    },
+    {
+      "scenario": "S2",
+      "n_candidates": 8,
+      "n_pairs": 28,
+      "objective": "maximize mean log capacity ratio"
+    },
+    {
+      "scenario": "S3",
+      "n_candidates": 12,
+      "n_pairs": 66,
+      "objective": "maximize worst weak-region p5 improvement ratio"
+    }
+  ],
+  "rules": {
+    "weak_search_radius_m": 75,
+    "boundary_clearance_m": 10,
+    "building_clearance_m": 5,
+    "existing_site_clearance_m": 25,
+    "candidate_separation_m": 25,
+    "new_site_height_m": 25
+  },
+  "candidate_selection": "closest allowed grid point to each weak centre, then closest remaining point >=25 m from already selected candidates; balanced ranks across W1-W4",
+  "common_selection": "held-out overall p5 descending; then worst regional p5 improvement ratio, median capacity, smaller worsened-user fraction; no claim of global optimum",
+  "training_split": "even checkerboard index parity; odd parity held out; spatially nearby deterministic samples, not independent random trials",
+  "feasibility_unverified": [
+    "land ownership",
+    "access",
+    "actual mast/roof height",
+    "installation permissions",
+    "utilities",
+    "unmodeled buildings"
+  ],
+  "source_boundary": "../01_weak_regions/boundary_vertices_estimated.csv"
+}

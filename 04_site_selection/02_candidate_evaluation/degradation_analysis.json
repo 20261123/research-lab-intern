@@ -1,0 +1,9 @@
+{
+  "any_loss_pct": 79.19875013949336,
+  "loss_gt_1pct_of_users": 35.31971878138601,
+  "loss_gt_10pct_of_users": 5.08313804262917,
+  "loss_gt_20pct_of_users": 1.3781943979466578,
+  "loss_gt_50pct_of_users": 0,
+  "median_relative_loss_among_worsened_pct": 0.6793913227461923,
+  "all_p5_improvement_pct": 482.8103809775955
+}
