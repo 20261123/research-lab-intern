@@ -1,0 +1,22 @@
+{
+  "date": "2026-10-15",
+  "source_sha256": "a5dee0b0e5adfb786932db2d07df88975b425eab93f1331384554ac31f152528",
+  "original_copy_identical": true,
+  "corrected_pages": 19,
+  "replaced_physical_page": 13,
+  "other_18_page_content_streams_identical": true,
+  "page13_vector_text": true,
+  "review_findings": 26,
+  "review_pdf_pages": 8,
+  "simulation_results_changed": false,
+  "연구실인턴_10_14_13쪽수정본.pdf": {
+    "bytes": 3506261,
+    "sha256": "052eb9438df2f3652a09183b80f5d3e5832125aba0c1fbf54e878039319f4178"
+  },
+  "발표자료_전체검토_수정제안.pdf": {
+    "bytes": 191305,
+    "sha256": "38fbed2bdd06e51ada17e9b251c24b25ab42346d512ba702c907dca9ddb4d579"
+  },
+  "final_render_review": "page13 and all8reviewpages checked",
+  "text_within_page_bounds": true
+}

@@ -164,12 +164,21 @@
 | 01_presenter_guide | [발표자_상세해설서.md](../../07_presentation/01_presenter_guide/발표자_상세해설서.md) |
 | 01_presenter_guide | [발표자_상세해설서_검수.json](../../07_presentation/01_presenter_guide/발표자_상세해설서_검수.json) |
 | 01_presenter_guide | [세종대_통신프로젝트_발표자_상세해설서.pdf](../../07_presentation/01_presenter_guide/세종대_통신프로젝트_발표자_상세해설서.pdf) |
+| 02_team_deck_2026-10-14/original | [연구실인턴_10_14_원본.pdf](../../07_presentation/02_team_deck_2026-10-14/original/연구실인턴_10_14_원본.pdf) |
+| 02_team_deck_2026-10-14 | [README.md](../../07_presentation/02_team_deck_2026-10-14/README.md) |
+| 02_team_deck_2026-10-14 | [review_findings.json](../../07_presentation/02_team_deck_2026-10-14/review_findings.json) |
+| 02_team_deck_2026-10-14 | [verification.json](../../07_presentation/02_team_deck_2026-10-14/verification.json) |
+| 02_team_deck_2026-10-14 | [발표자료_전체검토_수정제안.pdf](../../07_presentation/02_team_deck_2026-10-14/발표자료_전체검토_수정제안.pdf) |
+| 02_team_deck_2026-10-14 | [수정항목.csv](../../07_presentation/02_team_deck_2026-10-14/수정항목.csv) |
+| 02_team_deck_2026-10-14 | [연구실인턴_10_14_13쪽수정본.pdf](../../07_presentation/02_team_deck_2026-10-14/연구실인턴_10_14_13쪽수정본.pdf) |
+| 02_team_deck_2026-10-14 | [전체검토_수정제안.md](../../07_presentation/02_team_deck_2026-10-14/전체검토_수정제안.md) |
 | . | [PRESENTATION_GUIDE.md](../../07_presentation/PRESENTATION_GUIDE.md) |
 | . | [README.md](../../07_presentation/README.md) |
 | slides/examples | [README.md](../../07_presentation/slides/examples/README.md) |
 | slides/examples | [캠퍼스통신_발표초안_예제.pptx](../../07_presentation/slides/examples/캠퍼스통신_발표초안_예제.pptx) |
 | slides/examples | [캠퍼스통신_발표초안_예제_v3.pptx](../../07_presentation/slides/examples/캠퍼스통신_발표초안_예제_v3.pptx) |
 | tools | [build_presenter_guide.py](../../07_presentation/tools/build_presenter_guide.py) |
+| tools | [review_deck_1015.py](../../07_presentation/tools/review_deck_1015.py) |
 
 ## 조별 진행관리
 

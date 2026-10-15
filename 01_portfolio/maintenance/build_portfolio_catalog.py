@@ -11,7 +11,7 @@ groups=[
  ('04_site_selection','기지국 위치 선정 과정','잠정 경계·취약점 → 후보·평가함수 → 조합 비교·좌표','[위치 선정 이야기](PLACEMENT_PROCESS.md) · [취약 구간](01_weak_regions/) · [후보·조합 평가](02_candidate_evaluation/)'),
  ('05_comparison_results','주파수·대역폭 비교 결과','원본 9개 사각 영역과 최신 11개 캠퍼스 결과를 구분','[최신 11개 캠퍼스](03_added11_campus/) · [원본 9개 결과](01_baseline9_rectangle/) · [9개 세 조건 지도](02_baseline9_rectangle_heatmaps/)'),
  ('06_resilience','독립 20회·장애·대응 검증','확률 모델, 66장애 패턴, 비이상적 상황과 대응','[20회·장애·대응 설명과 자료](20_trials_and_failures/)'),
- ('07_presentation','발표 준비 자료','발표자 상세 해설서와 읽기본, 예제 PPT를 별도 관리','[34쪽 발표자 해설서](01_presenter_guide/) · [PPT 읽는 순서](PRESENTATION_GUIDE.md) · [예제 PPT](slides/examples/)'),
+ ('07_presentation','발표 준비 자료','발표자 상세 해설서와 읽기본, 예제 PPT를 별도 관리','[팀 발표PDF·13쪽 수정·전체 검토](02_team_deck_2026-10-14/) · [34쪽 발표자 해설서](01_presenter_guide/) · [PPT 읽는 순서](PRESENTATION_GUIDE.md) · [예제 PPT](slides/examples/)'),
  ('08_project_management','조별 진행관리','현재 체크리스트·역할별 업무·진행 기록·1일차 기록','[현재 문서](current/) · [1일차](day1/) · [역할 PDF 이력](roles/)'),
  ('09_references_archive','과제·표준·원본·이력','공식 참고자료, 원본 코드/보고서, 이전 버전·예제·로그','[과제 안내](assignment/) · [3GPP 원문](standards/) · [시작 자료](starting_materials/) · [예제 패키지](demo_package/) · [보고서 이력](reports/)'),
 ]
@@ -19,7 +19,7 @@ for folder,title,description,links in groups:
  note=''
  if folder=='04_site_selection':note='\n\n이 폴더는 위치를 결정한 **과정과 근거**를 보관합니다. 발표용 해설서·PPT는 [07_presentation](../07_presentation/)에서 찾습니다.'
  if folder=='05_comparison_results':note='\n\n`01/02`는 과거 26,741개 사각 격자 결과이고, `03`은 잠정 캠퍼스 경계의 17,922개 위치입니다. 다른 평가 영역의 수치를 직접 전후 비교하지 않습니다.'
- if folder=='07_presentation':note='\n\n최신 세종대 발표 준비 자료는 상세 해설서입니다. `slides/examples`의 PPT 두 개는 순천향대 예제 기반 이력이며 최종 세종대 PPT가 아닙니다. 최종 PPT 작성·팀 리허설·제출 완료로 표시하지 않습니다.'
+ if folder=='07_presentation':note='\n\n2026-10-15에 팀의 세종대 발표 PDF 초안을 받아 13쪽을 수정하고 전체 26항목을 검토했습니다. 최신 원본/수정본/검토표는 `02_team_deck_2026-10-14`에, 배경 해설은 `01_presenter_guide`에 있습니다. `slides/examples`의 PPT 두 개는 순천향대 예제 기반 이력이며 최종 세종대 PPT가 아닙니다. 최종 PPT 작성·팀 리허설·제출 완료로 표시하지 않습니다.'
  if folder=='09_references_archive':note='\n\n원본·이력 파일은 내용 그대로 보존했습니다. 과거 문서 내부의 당시 경로·수치는 역사 기록이며 현재 결과와 구분합니다. `demo_package`의 데이터는 순천향대 예제입니다. GitHub 단일 파일 제한을 넘는 두 MAT는 기존 [비공개 Release](https://github.com/20261123/research-lab-intern/releases/tag/data-archive-2026-10-10)에 있으며 [복원 경로](../01_portfolio/catalog/LARGE_FILES.md)를 확인합니다.'
  put(folder+'/README.md',f'# {title}\n\n{description}\n\n{links}{note}\n\n[포트폴리오 첫 화면](../README.md) · [전체 파일 목록](../01_portfolio/catalog/FILE_INDEX.md)')
 
@@ -36,6 +36,7 @@ MATLAB · Python · 3GPP TR 38.901 참고 · GitHub 자료 관리
 
 | 목적 | 바로 열기 |
 |---|---|
+| 최신 팀 발표자료와 수정할 점 | [19쪽 발표PDF·13쪽 수정본·전체 검토](07_presentation/02_team_deck_2026-10-14/) |
 | 프로젝트가 무엇을 해결했는지 | [포트폴리오 사례 설명](01_portfolio/CASE_STUDY.md) |
 | 두 기지국 위치를 어떻게 골랐는지 | [위치 선정 과정](04_site_selection/PLACEMENT_PROCESS.md) |
 | 발표자가 자세히 이해하고 싶다면 | [34쪽 상세 해설 PDF](07_presentation/01_presenter_guide/세종대_통신프로젝트_발표자_상세해설서.pdf) · [읽기본](07_presentation/01_presenter_guide/발표자_상세해설서.md) |
@@ -102,7 +103,7 @@ flowchart LR
 
 경계·후보 설치·높이는 잠정입니다. 위치별 Shannon 전송률은 실제 다운로드 속도나 셀 총 처리량이 아닙니다. SF 확장은 완전한 LOS/NLOS·이동·빠른 페이딩 모델이 아니며, 장애 대응은 재접속 지연·부하 재분배를 제외한 이상적 조건을 포함합니다. 검토한 후보 중 최선으로, 전역·장애 최적 배치를 확정하지 않았습니다.
 
-**완료:** 코드·계산·위치 선정 근거·확률/장애 검증·34쪽 해설서·자료 정리. **남음:** 정밀 경계·현장 설치 확인·최종 모델·세종대 최종 PPT·팀 리허설·제출. [체크리스트](08_project_management/current/팀작업_체크리스트.md)
+**완료:** 코드·계산·위치 선정 근거·확률/장애 검증·34쪽 해설서·팀 발표PDF 13쪽 수정/전체 검토·자료 정리. **남음:** 정밀 경계·현장 설치 확인·최종 모델·세종대 최종 PPT·팀 리허설·제출. [체크리스트](08_project_management/current/팀작업_체크리스트.md)
 ''')
 
 put('01_portfolio/CASE_STUDY.md','''
@@ -182,7 +183,11 @@ put('04_site_selection/PLACEMENT_PROCESS.md','''
 put('07_presentation/PRESENTATION_GUIDE.md','''
 # 발표자료 읽는 순서
 
-## 최신 자료
+## 최신 팀 발표 PDF
+
+[팀 발표 원본·13쪽 수정본·전체 검토](02_team_deck_2026-10-14/)를 확인하세요. 2026-10-15 검토 항목은 원본PPT 반영과 팀 확인이 남아 있습니다.
+
+## 상세 해설
 
 - [34쪽 상세 해설서 PDF](01_presenter_guide/세종대_통신프로젝트_발표자_상세해설서.pdf): 원리·수정·지도·배치·비교·20회·장애·대응·한계.
 - [수정 가능한 읽기본](01_presenter_guide/발표자_상세해설서.md).
